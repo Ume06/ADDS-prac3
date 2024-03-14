@@ -4,6 +4,7 @@
 using namespace std;
 
 int Reverser::reverseDigit(int value) {
+  if (value < 0) return -1
   //divide number by 10, remove remainder
   int rem = value % 10;
   if (value / 10 > 0) {
