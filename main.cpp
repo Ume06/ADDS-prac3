@@ -1,6 +1,12 @@
-#include "Truckloads.h"
 #include <iostream>
+#include "Reverser.h"
+
+using namespace std;
+
 int main() {
-  Truckloads test;
-  std::cout << test.numTrucks(14, 3) << std::endl;
+  int value = 678;
+  Reverser test;
+  int rvalue = test.reverseDigit(value);
+  cout << rvalue << endl;
+  cout << test.reverseString("Jack") << endl;
 }
